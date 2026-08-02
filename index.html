@@ -3,99 +3,47 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Mios Di-O2 is a coming-soon website for a future cycling software application.">
+    <meta name="description" content="Mios Di-O2 is coming soon. A quiet new cycling chapter is being prepared.">
     <title>Mios Di-O2 — Coming Soon</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
     <div class="site-shell">
-      <div class="ambient ambient-one" aria-hidden="true"></div>
-      <div class="ambient ambient-two" aria-hidden="true"></div>
-
       <header class="site-header" aria-label="Site header">
-        <a class="brand-mark" href="index.html" aria-label="Mios Di-O2 home">
-          <span class="brand-orbit" aria-hidden="true"></span>
-          <span>MIOS DI-O2</span>
-        </a>
-        <nav aria-label="Footer navigation">
+        <a class="brand-mark" href="index.html" aria-label="Mios Di-O2 home">MIOS DI-O2</a>
+        <nav aria-label="Site navigation">
           <a class="nav-link" href="privacy.html">Privacy Policy</a>
         </nav>
       </header>
 
-      <main id="main" class="hero">
-        <section class="hero-copy" aria-labelledby="headline">
-          <p class="eyebrow">MIOS DI-O2</p>
-          <h1 id="headline">Soon, we'll explore the world of cycling together.</h1>
-          <p class="supporting">Stay tuned.</p>
+      <main id="main" class="home-layout">
+        <section class="intro" aria-labelledby="headline">
+          <p class="kicker">MIOS DI-O2</p>
+          <h1 id="headline">See you soon.</h1>
+          <p class="lead">A quiet new cycling chapter is being prepared.</p>
+          <p class="supporting">Soon, we'll meet on the road.</p>
 
-          <div class="status-pill" role="status" aria-label="Launch status">
-            <span class="status-dot" aria-hidden="true"></span>
-            <span>A new journey is taking shape.</span>
+          <div class="status-line" role="status">
+            <span aria-hidden="true"></span>
+            <p>A new journey is taking shape.</p>
           </div>
 
-          <div class="contact-card">
-            <span>Contact</span>
-            <a href="mailto:nicolanoah.dev@gmail.com">nicolanoah.dev@gmail.com</a>
-          </div>
+          <a class="email-link" href="mailto:nicolanoah.dev@gmail.com">nicolanoah.dev@gmail.com</a>
         </section>
 
-        <section class="visual-stage" aria-label="Abstract cycling journey illustration">
-          <div class="topography" aria-hidden="true"></div>
-          <svg class="route-art" viewBox="0 0 760 620" role="img" aria-labelledby="route-title route-desc">
-            <title id="route-title">A winding cycling route toward a glowing horizon</title>
-            <desc id="route-desc">Abstract elevation lines, a winding road, and wheel motion motifs create a futuristic cycling journey.</desc>
-            <defs>
-              <linearGradient id="routeGlow" x1="0%" y1="100%" x2="100%" y2="0%">
-                <stop offset="0%" stop-color="#62ffe2"></stop>
-                <stop offset="48%" stop-color="#a7f3d0"></stop>
-                <stop offset="100%" stop-color="#f5c76b"></stop>
-              </linearGradient>
-              <radialGradient id="horizon" cx="50%" cy="46%" r="45%">
-                <stop offset="0%" stop-color="#f5c76b" stop-opacity=".58"></stop>
-                <stop offset="42%" stop-color="#14b8a6" stop-opacity=".18"></stop>
-                <stop offset="100%" stop-color="#020617" stop-opacity="0"></stop>
-              </radialGradient>
-              <filter id="softGlow">
-                <feGaussianBlur stdDeviation="7" result="blur"></feGaussianBlur>
-                <feMerge>
-                  <feMergeNode in="blur"></feMergeNode>
-                  <feMergeNode in="SourceGraphic"></feMergeNode>
-                </feMerge>
-              </filter>
-            </defs>
-
-            <rect x="0" y="0" width="760" height="620" rx="42" fill="rgba(2, 6, 23, .28)"></rect>
-            <circle cx="380" cy="280" r="230" fill="url(#horizon)"></circle>
-
-            <g class="contours" fill="none" stroke="rgba(148, 241, 223, .16)" stroke-width="1.4">
-              <path d="M76 161c69-60 166-83 253-55 52 17 79 53 144 55 58 2 93-24 146-9 36 10 59 36 76 62"></path>
-              <path d="M51 221c74-62 177-90 276-65 61 16 89 56 163 57 69 1 112-30 171-7 32 12 51 35 65 58"></path>
-              <path d="M35 286c84-65 199-97 310-72 72 16 108 64 192 61 75-2 122-41 179-11"></path>
-              <path d="M51 356c75-53 164-74 260-58 88 15 128 75 220 73 72-1 111-36 179-6"></path>
-              <path d="M88 424c59-36 125-48 204-36 101 15 147 76 253 80 61 2 103-15 151-1"></path>
-            </g>
-
-            <g class="elevation" aria-hidden="true">
-              <path d="M88 503 L158 446 L224 475 L291 393 L350 424 L421 320 L492 361 L575 255 L672 300" fill="none" stroke="rgba(255,255,255,.18)" stroke-width="2"></path>
-              <path d="M88 503 L158 446 L224 475 L291 393 L350 424 L421 320 L492 361 L575 255 L672 300 L672 526 L88 526 Z" fill="rgba(20,184,166,.08)"></path>
-            </g>
-
-            <path class="road-shadow" d="M126 570 C191 487 320 508 366 415 C408 330 293 323 335 241 C378 157 517 181 613 70" fill="none" stroke="rgba(0,0,0,.48)" stroke-width="42" stroke-linecap="round"></path>
-            <path class="road" d="M126 570 C191 487 320 508 366 415 C408 330 293 323 335 241 C378 157 517 181 613 70" fill="none" stroke="url(#routeGlow)" stroke-width="18" stroke-linecap="round" filter="url(#softGlow)"></path>
-            <path class="road-markings" d="M126 570 C191 487 320 508 366 415 C408 330 293 323 335 241 C378 157 517 181 613 70" fill="none" stroke="rgba(2, 6, 23, .72)" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 28"></path>
-
-            <g class="wheel wheel-one" transform="translate(178 515)">
-              <circle r="42" fill="none" stroke="rgba(255,255,255,.42)" stroke-width="2"></circle>
-              <circle r="22" fill="none" stroke="rgba(98,255,226,.36)" stroke-width="1.5"></circle>
-              <path d="M0-42V42M-42 0H42M-29-29 29 29M29-29-29 29" stroke="rgba(255,255,255,.25)" stroke-width="1"></path>
-            </g>
-            <g class="wheel wheel-two" transform="translate(574 110)">
-              <circle r="30" fill="none" stroke="rgba(245,199,107,.45)" stroke-width="2"></circle>
-              <circle r="12" fill="none" stroke="rgba(255,255,255,.28)" stroke-width="1.5"></circle>
-              <path d="M0-30V30M-30 0H30M-21-21 21 21M21-21-21 21" stroke="rgba(255,255,255,.22)" stroke-width="1"></path>
-            </g>
-          </svg>
+        <section class="editorial-visual" aria-label="Minimal cycling landscape">
+          <div class="photo-field" aria-hidden="true">
+            <div class="sun"></div>
+            <div class="ridge ridge-back"></div>
+            <div class="ridge ridge-front"></div>
+            <div class="road"></div>
+            <div class="road-line"></div>
+          </div>
+          <div class="visual-caption">
+            <span>Coming soon</span>
+            <span>Roadwear / Cycling</span>
+          </div>
         </section>
       </main>
 
